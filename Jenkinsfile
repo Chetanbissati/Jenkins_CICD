@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/<your-username>/jenkins-cicd-ubuntu.git'
+                git 'https://github.com/Chetanbissati/jenkins_CICD.git'
             }
         }
 
